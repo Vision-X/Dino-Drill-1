@@ -1,0 +1,9 @@
+#side-bar {
+  grid-column: 4/5;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+}
