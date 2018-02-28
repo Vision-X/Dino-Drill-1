@@ -7,7 +7,7 @@ class Listing extends Component {
         <h4>{this.props.job.title}</h4>
         <small>{this.props.job.pay}</small>
         <p>{this.props.job.description}</p>
-        <small>{this.props.job.interested} {'dinos are interested in this job'}</small>
+        <small>{this.props.job.interested} dinos are interested in this job</small>
       </li>
     );
   }

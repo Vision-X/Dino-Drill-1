@@ -5,10 +5,6 @@ import { Listing } from './Listing.js';
 
 class Joblistings extends Component {
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <section>

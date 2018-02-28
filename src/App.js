@@ -27,14 +27,14 @@ class App extends Component {
     } else if (targetField === 'pay') {
         this.setState({pay: event.target.value})
     } else {
-      this.setState({description: event.target.value})
+        this.setState({description: event.target.value})
     }
   }
 
   handleSubmit(event) {
     event.preventDefault();
     let updatedAry = this.state.dataAry;
-    let newListing = {id: '',
+    let newListing = {id: (updatedAry.length + 1),
                       interested: 0,
                       title: this.state.title,
                       pay: this.state.pay,
